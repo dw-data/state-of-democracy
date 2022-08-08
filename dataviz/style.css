@@ -1,0 +1,206 @@
+/* Global */
+
+:root {
+	--dw-background-color: #f1f3f5;
+	--dw-light-blue:  #00a5ff;
+	--dw-dark-blue: #002d5a;
+	--dw-midnight-blue: #002d5a;
+	--dw-green: #6ea500;
+	--dw-orange-red: #d44820;
+	--dw-red: #be232d;
+	--dw-yellow: #f0c80f;
+	--dw-violet-2: #7D40BC;
+	--dw-orange: #EB6E14;
+	--dw-grey-6: #b2bcc5;
+	--dw-grey-9: #7f8891;
+	--dw-grey-12: #4b545c;
+
+}
+
+svg {
+	background-color: var(--dw-background-color);
+}
+
+.line {
+	stroke-width: 2;
+	fill: none;
+}
+
+.label {
+	font-size: 14px;
+	font-family: DW Noto Sans;
+}
+
+.axis line {
+	color: var(--dw-grey-12);
+    stroke-dasharray: 2,3;
+}
+
+.axis line:not(:first-child):not(:last-child)  {
+	display: none;
+}
+
+.axis text {
+	color: var(--dw-grey-12);
+	font-family: DW Noto Sans;
+	font-size: 14px;
+}
+
+.axis > .domain {
+	display: none;
+}
+
+.axis line:not(:first-child):not(:last-child)  {
+	display: none;
+}
+
+/* Regime count chart */
+
+#democracy-label {
+	fill: var(--dw-midnight-blue);
+}
+
+#autocracy-label {
+	fill: var(--dw-orange-red);
+}
+
+#democracy-line {
+	fill: none;
+	stroke-width:  2;
+	stroke: var(--dw-midnight-blue);
+}
+
+#autocracy-line {
+	fill: none;
+	stroke-width:  2;
+	stroke: var(--dw-orange-red);
+}
+
+/* Regime type categorical force chart */
+
+.circle-lib-dem {
+	fill: var(--dw-dark-blue);
+}
+
+.circle-ele-dem {
+	fill: var(--dw-light-blue);
+}
+
+.circle-ele-aut {
+	fill: var(--dw-orange);
+}
+
+.circle-clo-aut {
+	fill: var(--dw-red);
+}
+
+
+/* Country line charts */
+
+.country-line {
+	fill: none;
+	stroke-width: 2;
+	stroke: red;
+}
+
+#line-FIN {
+	stroke: var(--dw-orange);
+}
+
+#line-ECU {
+	stroke: var(--dw-dark-blue);
+}
+
+#line-BRA {
+	stroke: var(--dw-green);
+}
+
+#line-POL {
+	stroke: var(--dw-dark-blue);
+}
+
+#line-HUN {
+	stroke: var(--dw-light-blue);
+}
+
+#line-IND  {
+	stroke: var(--dw-orange-red);
+}
+
+
+#line-TUR {
+	stroke: var(--dw-yellow);
+}
+
+#circle-FIN {
+	fill:  var(--dw-orange);
+}
+
+#circle-ECU {
+	fill: var(--dw-dark-blue);
+}
+
+#circle-BRA {
+	fill: var(--dw-green);
+}
+
+#circle-POL {
+	fill: var(--dw-dark-blue);
+}
+
+#circle-HUN {
+	fill: var(--dw-light-blue);
+}
+
+#circle-IND  {
+	fill: var(--dw-orange-red);
+}
+
+#circle-TUR {
+	fill: var(--dw-yellow);
+}
+
+/* Flow chart */
+.chord {
+	fill: var(--dw-grey-6);
+}
+
+.node rect {
+  fill-opacity: .9;
+  shape-rendering: crispEdges;
+}
+
+.node text {
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke: var(--dw-grey-9);
+  stroke-opacity: .2;
+}
+
+.circle {
+	display: none;
+}
+
+.rect-crisis-onset, .circle-crisis-onset {
+	fill: var(--dw-grey-9);
+}
+
+.rect-democratic-breakdown, .circle-democratic-breakdown {
+	fill: var(--dw-red);
+}
+
+.rect-still-crisis, .circle-still-crisis {
+	fill: var(--dw-grey-9);
+}
+
+.rect-remained-democratic, .circle-remained-democratic {
+	fill: var(--dw-dark-blue);
+}
+
+.skewed {
+	transform: scaleX(-1);
+}
