@@ -2,6 +2,8 @@
 
 This repository contains the methodology, source code and data sources that support [this story](https://dw.com/data) about democratic backsliding in the 21st century.
 
+Idea, research, analysis, visualization: [Rodrigo Menegat Schuinski](https://twitter.com/RodrigoMenegat).
+
 ## Data sources
 
 Two main data sources were used for this project, both of them published by the [V-Dem Institute](https://www.v-dem.net/):
@@ -10,7 +12,7 @@ Two main data sources were used for this project, both of them published by the 
 
 - The [Episodes of Regime Transformation Dataset](https://www.v-dem.net/ertds.html) was used to identify which countries went through significant periods of autocratization and the outcomes in the aftermath of the episode.
 
-The files are not included in this repository because they are too big.
+The files are not included in this repository because they are too big. Instead they can be accessed via the websites linked above.
 
 ## Research papers
 
