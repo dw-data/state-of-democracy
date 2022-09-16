@@ -1,6 +1,12 @@
 # Crises of democracy are hard to overcome in the short term
 
-This repository contains the methodology, source code and data sources that support [this story](https://dw.com/data) about democratic backsliding in the 21st century.
+This repository contains the methodology, source code and data sources that support [this story](https://www.dw.com/en/as-autocrats-ascend-gloomy-data-on-democracies-decline/a-62674756) about democratic backsliding in the 21st century.
+
+It can also be read in the following languages:
+- [Portuguese](https://www.dw.com/pt-br/democracias-sofrem-eros%C3%A3o-antes-de-ruir/a-63116697)
+- [French](https://www.dw.com/fr/d%C3%A9mocratie-autocratie-journ%C3%A9e-mondiale-de-la-d%C3%A9mocratie-v-dem/a-63128659)
+- [Turkish](https://www.dw.com/tr/ara%C5%9Ft%C4%B1rma-demokrasilerde-gerileme-otokrasilerde-art%C4%B1%C5%9F/a-63132044)
+- [Spanish](https://www.dw.com/es/en-busca-de-una-alerta-temprana-para-defender-la-democracia/a-63142985)
 
 Idea, research, analysis, visualization: [Rodrigo Menegat Schuinski](https://twitter.com/RodrigoMenegat).
 
